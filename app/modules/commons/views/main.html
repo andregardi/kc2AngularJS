@@ -1,0 +1,25 @@
+
+    <nav class="navbar kc2Bar">
+        <div class="container">
+        <a href="#" ui-sref="main.home"> <img src="assets/images/kc2.jpg" alt="" height="50px" ></a>
+        <div>
+            <a ui-sref="main.login" class="btn btn-primary " ng-show="!logged">LOGIN</a>
+            <a ng-click="vm.logout()" href="#"  class="btn btn-danger" ng-show="logged">SAIR</a>
+        </div>
+        </div>
+    </nav>
+
+    <div ui-view class="container"></div> 
+    
+    <div class="kc2Footer">
+        <div class="container">
+            <div class="pullLeft">
+                2017, Recife - Brasil
+            </div>
+            <div class="pullRight">
+                <img src="http://kc2.com.br/img/whatsapp.png" height="20" width="20" /> 81 98699-2229 | contato@kc2.com.br
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>

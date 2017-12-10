@@ -1,0 +1,10 @@
+<div class="alert alert-info" role="alert">
+        <h2 ng-bind="vm.course.name"></h2>
+        <select class="form-control" ng-change="vm.selectLesson()"  ng-model="vm.lesson" >
+            <option ng-repeat="lesson in vm.course.lessons" value={{lesson}}>{{lesson}}</option>
+        </select>
+    </div>
+    <div id="conteudoaula" style="margin-bottom:0px;background:#eeeeee"  oncontextmenu="return false">
+        <video id="video1" style="width:100%;" controls controlsList="nodownload" ng-src="{{vm.video}}">
+        </video>
+    </div>

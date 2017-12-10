@@ -1,0 +1,45 @@
+<div class="alert alert-success kc2Wellcome" ng-show="logged">
+        Bem-vindo <strong>{{user.name}}</strong> 
+    </div>
+<div class="row">
+    <div class="col-md-6">
+        <h4 class="kc2Heading">Meus Cursos</h4>
+        <div id="meusCursos">
+            <div id="cursosOnline" ng-repeat="(key, course) in lCourses.myCourses">
+                <a href="" ui-sref="main.lesson({id: key})">
+                    <div class="card curseCard">
+                        <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                                <img ng-src="{{course.image}}" alt="">
+                            </div>
+                            <div class="col-lg-7">
+                                <p ng-bind="course.description" ></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                </div>
+        </div>
+
+    </div>
+    <div class="col-md-6">
+        <h4 class="kc2Heading">Mais Cursos</h4>
+        <div id="outrosCursos">
+            <div id="cursosOnline" ng-repeat="(key, course) in lCourses.otherCourses" >
+                <a ng-click="vm.deny()" href="#">
+                    <div class="card curseCard">
+                        <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                                <img ng-src="{{course.image}}" alt="">
+                            </div>
+                            <div class="col-lg-7">
+                                <p ng-bind="course.description" ></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                </div>
+        </div>
+
+    </div>
+</div>

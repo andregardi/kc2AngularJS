@@ -1,0 +1,18 @@
+.header{
+    background: maroon;   
+}
+.header h1{
+    color: white;
+    display: inline;
+}
+.header ul{
+    display: inline;
+    float: right;
+    margin-top: 5px;
+}
+.header li{
+    display: inline;
+}
+.header a{
+
+}

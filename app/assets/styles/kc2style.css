@@ -1,0 +1,205 @@
+html, body {
+    height:100%; /* 100% to make the footer sink*/
+}
+
+/*----------------------
+Master wraps heade content and footer
+----------------------*/
+.master{
+    min-height:100%;
+    position:relative;
+    padding-bottom: 47px;
+}
+
+#main{
+    height:100%;
+}
+
+
+/*----------------------
+    Header
+----------------------*/
+
+.kc2Heading{
+    border-bottom: 2px solid gray;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.kc2Bar{
+    background: hsl(238, 51%, 47%);
+}
+
+/*----------------------
+Set a gray background, where nedeed
+----------------------*/
+
+.kc2GrayArea{
+    background: #EEEEEE;
+    min-height:100%;
+}
+
+
+
+/*----------------------
+    Curse Card
+----------------------*/
+
+.curseCard{
+    padding: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: black;
+    background: #E8F4FC;
+}
+
+.curseCard:hover{
+    background: #cccccc;
+}
+
+.curseCard img{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.curseCard p{
+    width: 100%;
+    text-align: justify;
+    margin: 0;
+}
+
+
+/*----------------------
+    Consulting Card
+----------------------*/
+
+.consultingCard{
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: black;
+    background: #D4E4E5;
+    background: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.consultingCard:hover{
+    background: #ffffff;
+    text-decoration: underline;
+
+}
+
+.consultingCard h5{
+    color: #3b3fb6;
+}
+
+.consultingCard img{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.consultingCard p{
+    width: 100%;
+    text-align: justify;
+    margin: 0;
+}
+
+/*----------------------
+        Footer
+----------------------*/
+
+.kc2Footer{
+    background: #3b3fb6;
+    margin: 0px 0 0 0;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    position:absolute;
+    bottom:0;
+    min-height:47px;
+    width: 100%; 
+}
+
+/*----------------------
+        Sliders
+----------------------*/
+.kc2SlideTitle{
+    margin-top: 10px;
+    
+}
+.kc2SlideText{
+    position:absolute;
+    bottom:20px;
+    color: #a81a24;
+    
+}
+.kc2SlideBox{
+    height: 100%;
+    
+}
+
+.left-side {
+    min-height: 200px;
+    float: none;
+    display: table-cell;
+
+}
+
+.right-side {
+    height: 100%;
+    float: none;
+    display: table-cell;
+}
+
+
+/*----------------------
+        Aux
+----------------------*/
+
+.pullRight{
+    float: right;
+}
+
+.pullLeft{
+    float: left;
+}
+
+.kc2Center{
+    margin: auto; 
+}
+
+.kc2CenterText{
+    text-align: center;
+}
+
+.kc2Wellcome{
+    text-align: center;
+    margin-top: 10px;
+}
+/*----------------------
+        Login Form
+----------------------*/
+.kc2LoginForm{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.kc2LoginForm h3{
+    text-align: center;
+}
+.kc2LoginForm *{
+    margin-top: 20px;
+}
+
+.loading{
+    min-height: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
