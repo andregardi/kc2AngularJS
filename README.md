@@ -105,7 +105,7 @@ Boolean que indica se o usuário está logado
 #### $rootScope.permissions
 Array com os IDs dos cursos que o usuário tem acesso
 
-####$rootScope.lCourses
+#### $rootScope.lCourses
 Constituido de dois objetos myCourses e otherCourses.
 **myCourses** contem uma versão simplificada dos dados dos cursos, apenas dos cursos que o usuário possui acesso.
 **otherCourses** contem uma versão simplificada dos dados dos cursos, apenas dos cursos que o usuário **não** possui acesso.
