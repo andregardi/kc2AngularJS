@@ -14,7 +14,7 @@ Antes de efetuar o Login, o array de permissões estará vazio. Assim todos os c
 Login realizado pelo método POST através da API ‘http://kc2.com.br/api/login’.
 Caso o login não seja valido, o usuário receberá a mensagem 'Não foi possível efetuar o login!'.
 ## lesson
-esse estado é composto por um select e uma tag de vídeo. O select é composto por uma série de opções as quais, cada uma, representa uma aula do curso. Ao trocar de opção a origem do conteúdo do vídeo é atualizada para a aula selecionada.
+esse estado é composto por um select e uma tag de vídeo. O select é composto por uma série de opções as quais, cada uma, representa uma aula do curso. Ao trocar de opção, a origem do conteúdo do vídeo é atualizada para a aula selecionada.
 # Factories:
 ## LoginFactory
 Formata os dados recebidos no login para o formato que usado na aplicação.
@@ -23,10 +23,10 @@ Formato
 **Original**:
 
 
-    "user":{   
+    "usuario":{   
        "id":"71",
-       "name":"Usuário teste",
-       "email":"teste@kc2.com.br"
+       "nome":"Usuário teste",
+       "mail":"teste@kc2.com.br"
     }
 
 
@@ -41,7 +41,7 @@ Formato
        "email":"teste@kc2.com.br"
     }
 
-##CoursesFactory
+## CoursesFactory
 Converte os dados dos cursos para o formato que iremos usar na aplicação.
 
 **Original**
