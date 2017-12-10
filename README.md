@@ -106,8 +106,8 @@ Array com os IDs dos cursos que o usuário tem acesso
 
 #### $rootScope.lCourses
 Constituido de dois objetos myCourses e otherCourses.
-**myCourses** Contém uma versão simplificada dos dados dos cursos que o usuário possui acesso.
-**otherCourses** Contém uma versão simplificada dos dados dos cursos que o usuário **não** possui acesso.
+**myCourses** contém uma versão simplificada dos dados dos cursos que o usuário possui acesso.
+**otherCourses** contém uma versão simplificada dos dados dos cursos que o usuário **não** possui acesso.
 
 
     "101":{  
