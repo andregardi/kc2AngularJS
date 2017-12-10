@@ -76,7 +76,8 @@ Converte os dados dos cursos para o formato que iremos usar na aplicação.
                 }
              }
      },
-**	CoursesFactory**
+------------
+**CoursesFactory**
 
 
     "101":{  
